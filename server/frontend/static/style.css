@@ -124,3 +124,20 @@ img{
     text-align:center;
     box-shadow: 2px 2px 3px #999;  
 }
+
+.contact-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    text-align: center; 
+    padding: 20px;
+  }
+
+.contact-image img {
+      max-width: 80%; 
+      height: auto; 
+    }
+
+.contact-info p {
+      margin: 10px 0; 
+    }
